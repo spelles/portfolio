@@ -27,7 +27,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     
-   <div id ="headerPoint" class="header headerFade">
+   <div id ="home" class="header headerFade">
        <div class="headerText">
             <h1>Pelle Sundin</h1>
             <h2>UX design-student på Södertörns högskola</h2>
@@ -40,10 +40,9 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link active" href="#headerPoint">Hem</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#home">Hem</a></li>
                 <li class="nav-item"><a class="nav-link" href="#about">Om mig</a></li>
                 <li class="nav-item"><a class="nav-link" href="#ux">UX</a></li>
-               <!-- <li class="nav-item"><a class="nav-link" href="#illustrations">Illustrationer</a></li> -->
                 <li class="nav-item"><a class="nav-link" href="#code">Front end</a></li>
                 <li id="mail" class="nav-item"><a class="nav-link" href="mailto:pellesundin@hotmail.com">pellesundin@hotmail.com</a></li>
             </ul>
@@ -57,77 +56,80 @@
                 <div class="col-sm-4 text-center front-content-3-col fadein">
                     <img id="profilePic" class="img-fluid" src="pelle.png" alt="self portrait">
                 </div>
-            <div class="col-sm-4 front-content-3-col">
-                <p id="aboutP">Uppväxt och bosatt i Stockholm med mål att en dag arbeta som UX designer.
+                <div class="col-sm-4 front-content-3-col fadein">
+                    <p id="aboutP">Uppväxt och bosatt i Stockholm med mål att en dag arbeta som UX designer.
                     Jag älskar att lösa användares behov genom samspelet mellan design, teknik och 
                     mänskligt beteende. Förutom att skapa innovativa lösningar spelar jag gärna gitarr 
                     i mitt band eller spenderar tid i Stockholms skärgård. Kika gärna på några av det
                     projekt jag varit involverad i nedan.                   
-                </p>
-            </div>
+                    </p>
+                </div>
 
-            <div class="col-sm-4 front-content-3-col">
-                <h4>Färdigheter</h4>
-                <ul class="skills">
-                    <li class="skill1"><p>UX design</p></li>
-                    <li class="skill2"><p>UX research</p></li>
-                    <li class="skill3"><p>Tjänstedesign</p></li>
-                    <li class="skill4"><p>Kodning</p></li>
-                </ul>
+                <div class="col-sm-4 front-content-3-col fadein">
+                    <h4>Färdigheter</h4>
+                    <ul class="skills">
+                        <li class="skill1"><p>UX design</p></li>
+                        <li class="skill2"><p>UX research</p></li>
+                        <li class="skill3"><p>Tjänstedesign</p></li>
+                        <li class="skill4"><p>Kodning</p></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="ux" class="container-fluid">
-        <h3 class="text-center">UX</h3>
-        <div class="card-deck align-items-stretch">
-            <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0 fadein"> 
-            <a href="#page/ux1.html"><img  class="card-img-top" src="logos/platsminnen.png" alt="Card image cap">
-            <div  class="card-body">
-                <h5 class="card-title text-center">Platsminnen</h5>
-                <p class="card-text">Skarpt projekt där ett nytt gränssnitt och nya funktioner togs fram.
-                    Projektet utgick från design thinking och en double diamond-process.
-                </p>
+        <div id="ux" class="container-fluid">
+            <h3 class="text-center">UX</h3>
+            <div class="card-deck align-items-stretch">
+                <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0 fadein"> 
+                    <a href="#page/ux1.html">
+                        <img  class="card-img-top" src="logos/platsminnen.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Platsminnen</h5>
+                            <p class="card-text">Skarpt projekt där ett nytt gränssnitt och nya funktioner togs fram.
+                            Projektet utgick från design thinking och en double diamond-process.
+                            </p>
+                            <p class="card-text"><small class="text-muted">Mer info kommer snart</small></p>
+                        </div>
+                    </a>   
+                </div>
+
+            <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0 fadein">
+                <a href="#page/ux2.html">
+                    <img class="card-img-top" src="logos/coop.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Coop</h5>
+                        <p class="card-text">Fiktivt projekt där tjänstedesign stod i fokus. Ett koncept togs fram som 
+                        låter kunderna scanna varor med mobilen och som uppmuntrar till ett mer ekologiskt handlande och tänk.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Mer info kommer snart</small></p>
+                    </div>
+                </a>
             </div>
-            </a>
-       
-    </div>
-    <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0">
-        <a href="#page/ux2.html"><img class="card-img-top" src="logos/coop.png" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title text-center">Coop</h5>
-            <p class="card-text">Fiktivt projekt där tjänstedesign stod i fokus. Ett koncept togs fram som 
-                låter kunderna scanna varor med mobilen och som uppmuntrar till ett mer ekologiskt handlande och tänk.
-            </p>
+            <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0 fadein">
+                <a href="#page/ux3.html"><img class="card-img-top" src="logos/tavling.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">TänkOm!</h5>
+                        <p class="card-text">En designtävling där deltagarna hade 72 timmar på sig att ta fram ett koncept. Avslutades med en pitch framför en jury 
+                        och drygt 120 personer som livesändes på Youtube.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Mer info kommer snart</small></p>
+                    </div>
+                </a>    
+            </div>
         </div>
-        </a>
-       
-    </div>
-    <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0">
-              <a href="#page/ux3.html"><img class="card-img-top" src="logos/tavling.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">TänkOm!</h5>
-                <p class="card-text">En designtävling där deltagarna hade 72 timmar på sig att ta fram ett koncept. Avslutades med en pitch framför en jury 
-                    och drygt 120 personer som livesändes på Youtube.
-                </p>
-              </div>
-              </a>  
-           
-            </div>
-          </div>
     </div>
 
     <div id="code" class="container-fluid">
         <h3 class="text-center">FRONT END</h3>
         <div class="row fadein">
-            <div class="col-sm-6 codeImg">
-            <img id="codeImg" class="img-fluid" src="logos/code.jpg" alt="some code">
+            <div class="col-sm-6 codeImg fadein">
+                <img id="codeImg" class="img-fluid" src="logos/code.jpg" alt="some code">
             </div>
-            <div class="col-sm-6 codeText">
-            <p>Innan jag började läsa på mer om UX lärde jag mig om webbutveckling och att bygga hemsidor i WordPress. Utöver detta har jag en förståelse för hur JavaScript och PHP fungerar.</p>
-             <p>(Psst, jag har kodat denna sida från grunden med HTML, CSS/Bootstrap och jQuery)</p>
+            <div class="col-sm-6 codeText fadein">
+                <p>Innan jag började läsa på mer om UX lärde jag mig om webbutveckling och att bygga hemsidor i WordPress. Utöver detta har jag en förståelse för hur JavaScript och PHP fungerar.</p>
+                <p>(Psst, jag har kodat denna sida från grunden med HTML, CSS/Bootstrap och jQuery)</p>
+            </div>
         </div>
-            </div>
     </div>   
 
     <footer>
@@ -136,13 +138,14 @@
         </div>
         <div id="icons" class="contact">
             <span id="socialIcons">
-            <a href="https://www.linkedin.com/in/pelle-sundin/" target="_blank">
-            <i id ="linkedin" class="fa fa-linkedin-square" style="font-size:36px"></i>
-            </a></span>
+                <a href="https://www.linkedin.com/in/pelle-sundin/" target="_blank">
+                    <i id ="linkedin" class="fa fa-linkedin-square iconsize"></i>
+                </a>
+            </span>
             <span>
-            <a href="https://github.com/spelles" target="_blank">
-            <i class="fa fa-github" style="font-size:36px"></i>
-            </a>
+                <a href="https://github.com/spelles" target="_blank">
+                    <i class="fa fa-github iconsize"></i>
+                </a>
             </span>
         </div>
     </footer>
