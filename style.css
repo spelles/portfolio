@@ -20,8 +20,8 @@ p {
 
 .header {
  /* The image used */
- background-image: url("logos/headerDesk.png");
-
+    background-image: url("logos/headerDesk.png");
+    
  /* Set a specific height */
     min-height: 450px; 
 
@@ -178,12 +178,29 @@ footer {
     padding-bottom: 15px;
 }
 
+.contact {
+    margin-bottom: 15px;
+}
+
+#footerMail {
+    font-size: 1.2rem;
+}
+
+.iconsize {
+    font-size: 46px !important;
+}
+
 #socialIcons {
     margin-right: 25px;
 }
 
 /*          Laptopt         */
 @media (min-width: 992px) {
+
+    .header {
+        background-size: 100%;
+    }
+
     .col-sm-4 {
         padding-right: 80px !important;
         padding-left: 80px !important;
