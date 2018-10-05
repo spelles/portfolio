@@ -12,10 +12,12 @@ a:visited {
 
 h1, h2, h3, h4, a:link {
     font-family: 'Slabo 27px', serif !important;
+    color: #616161 !important;
 }
 
-p {
+p, p.card-text {
     font-family: 'Nunito', sans-serif !important;
+    color:#757575;
 }
 
 .header {
@@ -218,6 +220,16 @@ footer {
     .codeText {
         padding-right: 70px !important;
     }
+
+    /* Ux pages, text and image */
+
+    #processImgLeft, #processTextLeft {
+        padding-left: 100px;
+    }
+
+    #processTextRight, #processImgRight {
+        padding-right: 100px;
+    }
 }
 
 /*          Tablet          */
@@ -240,20 +252,19 @@ footer {
         padding-right: 34px !important;
         padding-left: 34px !important;
     }
+    
+    #processImgLeft, #processTextLeft {
+        margin-bottom: 8px;
+    }
+
+    #processTextRight, #processImgRight {
+        margin-top: 8px;
+    }
 }
 
 /* Ux pages, text and image */
 
-#processImgLeft, #processTextLeft {
-    padding-left: 100px;
-}
-
-#processTextRight, #processImgRight {
-    padding-right: 100px;
-}
-
 .uxImg {
-    width: 85% !important;
     border-radius: 5px;
 }
 
@@ -268,4 +279,9 @@ footer {
 
 hr {
     width: 92%;
+}
+
+.uxsection {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
