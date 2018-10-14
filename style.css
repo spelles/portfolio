@@ -64,6 +64,18 @@ background-color: #e3f2fd;
     padding-right: 1.5em !important;
 }
 
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
 .active  {
     border-bottom: 2px solid black !important;
 }
