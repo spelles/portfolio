@@ -18,6 +18,7 @@ h3, h4, a:link {
 p, p.card-text {
     font-family: 'Nunito', sans-serif !important;
     color:#757575;
+    font-size: 120%;
 }
 
 .header {
@@ -27,7 +28,6 @@ p, p.card-text {
  /* Set a specific height */
     min-height: 450px; 
 
- /* Create the parallax scrolling effect */
     position: relative;
     text-align: center;
     color: white;
@@ -197,7 +197,7 @@ footer {
     margin-right: 25px;
 }
 
-/*          Laptopt         */
+/*          Laptop          */
 @media (min-width: 992px) {
 
     .header {
@@ -230,6 +230,20 @@ footer {
 
     #processTextRight, #processImgRight {
         padding-right: 100px;
+    }
+    .uxPadding {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .uxsection {
+        margin-bottom: 100px;
+    }
+
+    .tankompitch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 
@@ -267,11 +281,6 @@ footer {
 
 .uxImg {
     border-radius: 5px;
-}
-
-.uxPadding {
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 
 .backArrow {
