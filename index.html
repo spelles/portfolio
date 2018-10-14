@@ -2,10 +2,20 @@
 <html lang="sv">
 
 <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127067697-1');
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Pelle Sundin</title>
+    <link rel="shortcut icon" type="image/png" href="logos/favicon.png"/>
     <link rel="stylesheet" href="style.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +45,7 @@
     </div>
 
     <nav class="navbar navbar-expand-sm navbar-light sticky-top navFade">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -44,7 +54,7 @@
                 <li class="nav-item"><a class="nav-link" href="#about">Om mig</a></li>
                 <li class="nav-item"><a class="nav-link" href="#ux">UX</a></li>
                 <li class="nav-item"><a class="nav-link" href="#code">Front end</a></li>
-                <li id="mail" class="nav-item"><a class="nav-link" href="mailto:pellesundin@hotmail.com">pellesundin@hotmail.com</a></li>
+                <li id="mail" class="nav-item"><a class="nav-link" href="mailto:hej@pellesundin.se">hej@pellesundin.se</a></li>
             </ul>
         </div>
     </nav>
@@ -81,12 +91,12 @@
             <h3 class="text-center">UX</h3>
             <div class="card-deck align-items-stretch">
                 <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0 fadein"> 
-                    <a href="#page/ux1.html">
+                    <a href="page/platsminnen.html">
                         <img  class="card-img-top" src="logos/platsminnen.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title text-center">Platsminnen</h5>
-                            <p class="card-text">Skarpt projekt där ett nytt gränssnitt och nya funktioner togs fram.
-                            Projektet utgick från design thinking och en double diamond-process.
+                            <p class="card-text">Skarpt projekt där ett nytt gränssnitt och nya funktioner togs fram för applikationen platsminnen.
+                            Projektet utgick från design thinking.
                             </p>
                             <p class="card-text"><small class="text-muted">Mer info kommer snart</small></p>
                         </div>
@@ -94,7 +104,7 @@
                 </div>
 
             <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0 fadein">
-                <a href="#page/ux2.html">
+                <a href="page/coop.html">
                     <img class="card-img-top" src="logos/coop.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title text-center">Coop</h5>
@@ -106,10 +116,10 @@
                 </a>
             </div>
             <div class="card shadow p-3 mb-5 bg-white rounded cardZoom border-0 fadein">
-                <a href="#page/ux3.html"><img class="card-img-top" src="logos/tavling.jpg" alt="Card image cap">
+                <a href="page/tankom.html"><img class="card-img-top" src="logos/tavling.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title text-center">TänkOm!</h5>
-                        <p class="card-text">En designtävling där deltagarna hade 72 timmar på sig att ta fram ett koncept. Avslutades med en pitch framför en jury 
+                        <p class="card-text">En designtävling där deltagarna hade 48 timmar på sig att ta fram ett koncept. Avslutades med en pitch framför en jury 
                         och drygt 120 personer som livesändes på Youtube.
                         </p>
                         <p class="card-text"><small class="text-muted">Mer info kommer snart</small></p>
@@ -134,7 +144,7 @@
 
     <footer>
         <div class="contact">
-            <a id="footerMail" class="contact" href="mailto:pellesundin@hotmail.com">pellesundin@hotmail.com</a>
+            <a id="footerMail" class="contact" href="mailto:hej@pellesundin.se">hej@pellesundin.se</a>
         </div>
         <div id="icons" class="contact">
             <span id="socialIcons">
